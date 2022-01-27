@@ -103,8 +103,8 @@ class ImgtoExl(QMainWindow):
         s1=s.replace('{','')     # eliminating the curly braces
         s2=s1.replace('}','')
         self.s=s2       # addreass of Image
-        API_KEY="545a2ccf0b184086acdc5322e0efe843"
-        ENDPOINT="https://pranesh45.cognitiveservices.azure.com/"
+        API_KEY=""# Enter   API KEY here
+        ENDPOINT="" # Enter ENDPOINT here
         computervision_client=ComputerVisionClient(ENDPOINT,CognitiveServicesCredentials(API_KEY))
         read_image = open(self.s, "rb")
         response = computervision_client.read_in_stream(read_image,raw=True)  # api call
