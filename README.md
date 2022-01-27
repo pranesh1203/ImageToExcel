@@ -1,0 +1,2 @@
+# ImageToExcel
+This is a project on converting an image to an excel sheet. To be more precise, converting a scanned image of rows and columns consisting of data into an excel sheet without any discrepancies in the data. Our project will help all those people who find difficulty in entering each and every character into an excel file looking at the hard copy of the content. Especially for the faculty members of schools or colleges or any individual who deal with data consisting in the form of rows and columns.
